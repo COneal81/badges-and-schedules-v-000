@@ -13,7 +13,6 @@ end
 def batch_bage_creator(names)
   names.each do |name|name << "Hello, my name is #{name}."
   end
-  return badge_messages
   end
   
   
