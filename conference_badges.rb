@@ -1,6 +1,6 @@
 # Write your code here.
 
-attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+speaker = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 
 def badge_maker(name)
@@ -11,8 +11,7 @@ end
   
 
 def batch_bage_creator(names)
-  
-  names.each do |name| badge_messages << "Hello, my name is #{attendees}."
+  names.each do |name|name << "Hello, my name is #{name}."
   end
   return badge_messages
   end
