@@ -8,8 +8,6 @@ def badge_maker(name)
 end
 
 
-  
-
 def batch_bage_creator(attendees)
   attendees.collect do |name|
     badge_maker(name)
@@ -17,7 +15,8 @@ def batch_bage_creator(attendees)
   end
   
   
-  def assign_rooms(speaker)
+  def assign_rooms
+    rooms = 
   end
   
   def printer
