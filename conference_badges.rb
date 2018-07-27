@@ -11,7 +11,7 @@ end
   
 
 def batch_bage_creator(attendees)
-  badge_maker(attendees)
+  attendees.collect
   end
   end
   
