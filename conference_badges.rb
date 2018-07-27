@@ -16,6 +16,7 @@ def batch_bage_creator(attendees)
   return "Hello, my name is #{attendees}"
   end
   return badges
+end
   
   
   def assign_rooms(speaker)
