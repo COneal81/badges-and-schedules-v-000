@@ -9,6 +9,7 @@ end
   
 
 def batch_bage_creator(attendees)
+  
   attendees.each do |attendees|
   return "Hello, my name is #{attendees}"
   end
