@@ -22,6 +22,6 @@ def batch_bage_creator(attendees)
 end
   
   def printer (attendees)
-    print batch_bage_creator[assign_rooms]
+   batch_bage_creator.each do |value|
   
   end
