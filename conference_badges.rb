@@ -23,5 +23,5 @@ end
   
   def printer (attendees)
    batch_bage_creator.each do |value|
-  
+     puts value
   end
