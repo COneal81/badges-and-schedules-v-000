@@ -23,5 +23,7 @@ def batch_bage_creator(attendees)
   end
 end
   
-  def printer
+  def printer (attendees)
+    print batch_bage_creator[assign_rooms]
+  
   end
