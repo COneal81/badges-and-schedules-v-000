@@ -10,8 +10,8 @@ end
 
   
 
-def batch_bage_creator(badges)
-  badges.each do |attendees|
+def batch_bage_creator(conference_badges)
+  conference_badges.each do |attendees|
   end
   return "Hello, my name is #{attendees}."
   
