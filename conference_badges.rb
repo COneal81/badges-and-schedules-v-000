@@ -14,9 +14,8 @@ def batch_bage_creator(conference_badges)
   badge_messages = []
   conference_badges.each do |attendees| badge_messages << "Hello, my name is #{attendees}."
   end
-  
-  
-end
+  return badge_messages
+  end
   
   
   def assign_rooms(speaker)
