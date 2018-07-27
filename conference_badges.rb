@@ -16,8 +16,10 @@ def batch_bage_creator(attendees)
   
   
   def assign_rooms(attendees)
-    rooms = 0 
-    
+    room = 0 
+    while room < 7
+    puts"Hello, #{attendees}!  You'll be assigned to room #{room}"
+    room += 1
   end
   
   def printer
