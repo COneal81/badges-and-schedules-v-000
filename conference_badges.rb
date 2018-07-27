@@ -1,6 +1,6 @@
 # Write your code here.
 
-name = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 
 def badge_maker(name)
@@ -11,7 +11,7 @@ end
 def batch_bage_creator(attendees)
   attendees.collect do |name|
     badge_maker(name)
-  end
+    end
   end
   
   
