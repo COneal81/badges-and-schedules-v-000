@@ -18,15 +18,14 @@ def batch_bage_creator(attendees)
     attendees.collect do |name|
     room += 1
     "Hello, #{name}!  You'll be assigned to room #{room}"
-    
   end
 end
   
   def printer (attendees)
-   batch_bage_creator.each do |value|
+   batch_bage_creator(attendees).each do |value|
      puts value
   end
-  assign_rooms.each do |value|
+  assign_rooms(attendees).each do |value|
     puts value
   end
 end
