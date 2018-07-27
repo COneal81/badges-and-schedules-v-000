@@ -1,6 +1,6 @@
 # Write your code here.
 
-attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+name = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 
 def badge_maker(name)
@@ -17,8 +17,8 @@ def batch_bage_creator(attendees)
   
   def assign_rooms(attendees)
     room = 1
-    attendees.collect do |attendees|
-    puts"Hello, #{attendees}!  You'll be assigned to room #{room}"
+    attendees.collect do |name|
+    puts"Hello, #{name}!  You'll be assigned to room #{room}"
     room += 1
   end
 end
