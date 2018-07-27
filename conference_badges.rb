@@ -6,7 +6,7 @@ def badge_maker(name)
 end
 
 
-def batch_bage_creator(attendees)
+def batch_badge_creator(attendees)
   attendees.collect do |name|
     badge_maker(name)
     end
@@ -22,7 +22,7 @@ def batch_bage_creator(attendees)
 end
   
   def printer (attendees)
-   batch_bage_creator(attendees).each do |value|
+   batch_badge_creator(attendees).each do |value|
      puts value
   end
   assign_rooms(attendees).each do |value|
