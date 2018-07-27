@@ -11,7 +11,7 @@ end
   
 
 def batch_bage_creator(attendees)
-  attendees.collect
+  attendees.collect{
   end
   end
   
